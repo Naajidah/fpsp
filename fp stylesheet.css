@@ -1,5 +1,48 @@
 
 <style>
+
+
+
+@media (min-width: 0px) and (max-width: 500px) {
+
+#ug
+{
+text-align: center; FONT-SIZE: 19pt;
+
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 50000px) {
+
+
+#ug{
+text-align: center; FONT-SIZE: 34pt;
+}
+}
+
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+#panel {
+  width: 50%;
+  margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+    background-color: transparent;
+    border: solid 1px #c3c3c3;
+    width: 500px; 
+}
+
+#panel {
+    padding: 20px;
+    display: none;
+}
+
 #bordering{
 padding-left: 3%;
 padding-right: 3%; 
