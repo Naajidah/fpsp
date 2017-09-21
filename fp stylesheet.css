@@ -2,6 +2,14 @@
 <style>
 @media (min-width: 0px) and (max-width: 500px) {
 
+#applytome {
+	width:85%; 
+	border-top-style hidden; 
+	border-bottom-style:  hidden; 
+	border-right-style:  hidden; 
+	border-left: gray 6px solid; 
+	background-color: #d3d3d3;
+}
 	
 #borderofpage {
 	padding-left: 1%; 
@@ -25,6 +33,15 @@
 	margin-top:2%; 
 	margin-bottom:2%; 
 	margin-left:8%;"
+}
+	
+#applytome {
+	width:50%; 
+	border-top-style hidden; 
+	border-bottom-style:  hidden; 
+	border-right-style:  hidden; 
+	border-left: gray 6px solid; 
+	background-color: #d3d3d3;
 }
 }
 
@@ -55,11 +72,6 @@
     display: none;
 }
 
-#bordering{
-padding-left: 3%;
-padding-right: 3%; 
-padding-top: 1%; 
-}
 
 #greytext {
 	color: rgb(102, 102, 102); 
@@ -104,13 +116,6 @@ padding-top: 1%;
 	line-height: 120%;
 }
 
-#applytome {
-	width:50%; 
-	border-top-style hidden; 
-	border-bottom-style:  hidden; 
-	border-right-style:  hidden; 
-	border-left: gray 6px solid; 
-	background-color: #d3d3d3;
-}
+
 
 </style> 
