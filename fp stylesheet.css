@@ -1,75 +1,54 @@
 
 <style>
-
-#Cacef 
-
-{
-padding-left: 8%; 
-padding-right: 8%; 
-padding-bottom: 6%;  
-padding-top: 2%;  
-text-align:left;
-
+@media (min-width: 0px) and (max-width: 500px) {
+#borderofpage {
+	padding-left: 1%; 
+	padding-right: 1%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
+	}
+	
+#applytome {
+	width:100%; 
+	border-top-style hidden; 
+	border-bottom-style:  hidden; 
+	border-right-style:  hidden; 
+	border-left: gray 6px solid; 
+	background-color: #d3d3d3;
 }
+	
 
-
-
-#Yesterdai {
-margin:auto; 
-display: inline-block; 
-width: 100%; 
-box-shadow: 0 0 5px #000
+@media (min-width: 500px) and (max-width: 50000px) {
+	
+#applytome {
+	width:50%; 
+	border-top-style hidden; 
+	border-bottom-style:  hidden; 
+	border-right-style:  hidden; 
+	border-left: gray 6px solid; 
+	background-color: #d3d3d3;
 }
-
-
-
-#Tomaws {
-padding-left: 5%; 
-padding-right: 5%; 
-padding-bottom: 5%; 
-padding-top: 2%;
+#borderofpage {
+	padding-left: 2%; 
+	padding-right: 5%; 
+	padding-bottom: 2%;  
+	padding-top: 2%; 
+	box-shadow: 0 0 3px #ccc; 
+	margin-right:8%; 
+	margin-top:2%; 
+	margin-bottom:2%; 
+	margin-left:8%;"
+}
 }
 
 
 #gobackbutton {
-cursor: pointer; 
-cursor: hand; 
-float: right; 
-padding: 4%;
-width: 35px; 
-
-}
-
-
-@media (min-width: 0px) and (max-width: 500px) {
-
-#borderofpage {
-padding: 5%; 
-}
-	
-	
-#ug
-{
-text-align: center; FONT-SIZE: 19pt;
-
-}
-
-}
-
-@media (min-width: 500px) and (max-width: 50000px) {
-#borderofpage {
-margin:auto; 
-display: inline-block; 
-padding: 5%; 
-width:85%; 
-box-shadow: 0 0 5px #000
-}
-
-#ug{
-text-align: center; FONT-SIZE: 34pt;
-}
-}
-
+	cursor: pointer; 
+	cursor: hand; 
+	float: right; 
+	padding: 4%;
+	width: 35px; 
+	}
 #flip {
     padding: 5px;
     text-align: center;
@@ -85,9 +64,6 @@ text-align: center; FONT-SIZE: 34pt;
     background-color: transparent;
     border: solid 1px #c3c3c3;
     width: 500px; 
-}
-
-#panel {
     padding: 20px;
     display: none;
 }
@@ -99,7 +75,25 @@ padding-top: 1%;
 }
 
 #greytext {
-	color: rgb(102, 102, 102); font-family: helvetica-neue, helvetica, arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;
+	color: rgb(102, 102, 102); 
+	font-family: helvetica-neue, helvetica, arial, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	font-variant-ligatures: normal; 
+	font-variant-caps: normal; 
+	font-weight: normal; 
+	letter-spacing: normal; 
+	orphans: 2; 
+	text-align: -webkit-left; 
+	text-indent: 0px; 
+	text-transform: none; 
+	white-space: normal; 
+	widows: 2; 
+	word-spacing: 0px; 
+	-webkit-text-stroke-width: 0px; 
+	background-color: rgb(255, 255, 255); 
+	display: inline !important; 
+	float: none;
 
 }
 
@@ -124,14 +118,5 @@ padding-top: 1%;
 }
 
 
-#applytome
-{
-width:50%; 
-border-top-style hidden; 
-border-bottom-style:  hidden; 
-border-right-style:  hidden; 
-border-left: gray 6px solid; 
-background-color: #d3d3d3;
-}
 
 </style> 
