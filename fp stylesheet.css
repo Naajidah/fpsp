@@ -15,14 +15,6 @@
 
 @media (min-width: 500px) and (max-width: 50000px) {
 	
-#applytome {
-	width:50%; 
-	border-top-style hidden; 
-	border-bottom-style:  hidden; 
-	border-right-style:  hidden; 
-	border-left: gray 6px solid; 
-	background-color: #d3d3d3;
-}
 #borderofpage {
 	padding-left: 2%; 
 	padding-right: 5%; 
@@ -112,6 +104,13 @@ padding-top: 1%;
 	line-height: 120%;
 }
 
-
+#applytome {
+	width:50%; 
+	border-top-style hidden; 
+	border-bottom-style:  hidden; 
+	border-right-style:  hidden; 
+	border-left: gray 6px solid; 
+	background-color: #d3d3d3;
+}
 
 </style> 
