@@ -1,6 +1,44 @@
 
 <style>
 
+#Cacef 
+
+{
+padding-left: 8%; 
+padding-right: 8%; 
+padding-bottom: 6%;  
+padding-top: 2%;  
+text-align:left;
+
+}
+
+
+
+#Yesterdai {
+margin:auto; 
+display: inline-block; 
+width: 100%; 
+box-shadow: 0 0 5px #000
+}
+
+
+
+#Tomaws {
+padding-left: 5%; 
+padding-right: 5%; 
+padding-bottom: 5%; 
+padding-top: 2%;
+}
+
+
+#gobackbutton {
+cursor: pointer; 
+cursor: hand; 
+float: right; 
+padding: 4%;
+width: 35px; 
+
+}
 
 
 @media (min-width: 0px) and (max-width: 500px) {
