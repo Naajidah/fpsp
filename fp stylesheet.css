@@ -1,6 +1,6 @@
 
 <style>
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 500px) {
 
 	
 #borderofpage {
@@ -10,14 +10,7 @@
 	padding-top: 1%; 
 	}
 	
-#applytome {
-	width:85%; 
-	border-top-style hidden; 
-	border-bottom-style:  hidden; 
-	border-right-style:  hidden; 
-	border-left: gray 6px solid; 
-	background-color: #d3d3d3;
-}
+
 }	
 
 @media (min-width: 500px) and (max-width: 50000px) {
